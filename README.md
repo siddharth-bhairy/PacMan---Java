@@ -1,30 +1,18 @@
-# Pac-Man Game
-This is a simple implementation of the classic Pac-Man game developed in Java using the Swing library. The game includes a grid-based board, walls, food pellets, ghosts, and the Pac-Man character. Players can control Pac-Man to collect food while avoiding ghosts. The game ends when the player loses all lives or clears the board of food.
+## Getting Started
 
-# Features
-## Game Mechanics:
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-Move Pac-Man using arrow keys.
-Collect food pellets to score points.
-Avoid ghosts to prevent losing lives.
-Reset positions when a ghost collides with Pac-Man.
-Game over when all lives are lost.
-Automatic level reset when all food is collected.
+## Folder Structure
 
-## Graphics:
+The workspace contains two folders by default, where:
 
-Grid-based game board.
-Custom images for walls, ghosts, and Pac-Man.
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-Dynamic Ghost Movement:
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-Ghosts move in random directions.
-Ghosts reset positions upon collision with walls or Pac-Man.
-Scoring and Lives:
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-Score increases by 10 points for each food pellet collected.
-The player starts with 3 lives.
+## Dependency Management
 
-## Requirements
-Java Development Kit (JDK) 8 or higher.
-IDE or Text Editor: Any IDE (e.g., IntelliJ IDEA, Eclipse) or text editor with Java support.
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
